@@ -1,24 +1,75 @@
-.overlay {
-    height: 800px;
-    background: url(imgs/bg-1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-  
-   
-    
-  }
-  .box{
-    height: 800px;
-    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8));
-    
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
 
-  }
-  .overlay h3,p{
-    color: beige;
-    
-  }
-  .blog{
-    height: 300px;
-    width: 100%;
-    background-color: brown;
-  }
+/* style for header */
+.header{
+  background: #fff8f3;
+  background-image: url(../images/header_bg.png),url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right,left;
+
+}
+.nav-title {
+
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.text-primary {
+  color: #FD6E0A;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 150px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+
+}
+
+nav li {
+  list-style: none;
+  margin-left: 5px;
+}
+
+.btn-primary {
+  background-color: #FD6E0A;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  border: 0;
+  padding: 18px 35px;
+  border-radius: 5px;
+}
+
+/* banner style */
+.banner {
+  display: flex;
+  align-items: center;
+  margin: 0 150px;
+}
+
+.banner-subtitle {
+
+  font-weight: 600;
+  font-size: 45px;
+  margin-bottom: 20px;
+
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 65px
+}
+
+.banner-description {
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
